@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sorry Mau 💗</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#ffe0ed,#fff8fb 55%,#ffe7ef);color:#71304c;font-family:"Trebuchet MS",system-ui,sans-serif;min-height:100vh;overflow-x:hidden}
+main{max-width:760px;margin:auto;padding:22px 15px 42px}.card{background:#ffffffdf;border:2px solid #ffc1d8;border-radius:28px;padding:25px 19px;margin:0 0 18px;text-align:center;box-shadow:0 12px 35px #c84b7818}
+.tag{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#bd4774;font-weight:800}h1{font-size:clamp(3rem,12vw,5.3rem);line-height:.95;color:#f04b88;margin:12px 0;text-shadow:2px 3px #ffd1e2}h2{color:#e74482;margin:8px 0}.mascot{font-size:5.3rem;margin:10px}.lead{font-size:1.12rem;line-height:1.7}.note{background:#fff0f6;border-radius:20px;padding:17px;line-height:1.75;text-align:left;margin:16px 0}.buttons{display:flex;justify-content:center;flex-wrap:wrap;gap:11px;margin-top:18px}button{border:0;border-radius:999px;padding:14px 18px;font:inherit;font-weight:800;cursor:pointer;box-shadow:0 5px #e9a3bf;transition:transform .12s}button:active{transform:translateY(3px);box-shadow:0 2px #e9a3bf}.pink{background:#ff5f98;color:white}.soft{background:#ffe0eb;color:#9e2857}.tilegrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tile{background:#fff0f6;border-radius:18px;padding:15px 8px}.tile strong{display:block;color:#c83270;margin:5px}.small{font-size:.88rem;color:#a55b7b}.hidden{display:none}.overlay{position:fixed;inset:0;background:#51213d88;display:grid;place-items:center;padding:18px;z-index:4}.popup{max-width:440px;width:100%;background:#fff8fb;border:3px solid #ffb4ce;border-radius:28px;padding:24px 20px;text-align:center;box-shadow:0 20px 65px #51213d55;animation:pop .22s ease-out}.popicon{font-size:3.2rem}.popup p{line-height:1.7}.footer{text-align:center;line-height:1.8;padding:10px 8px}.float{position:fixed;top:110vh;pointer-events:none;animation:rise 7s linear infinite;opacity:.75}@keyframes pop{from{transform:scale(.82);opacity:0}to{transform:scale(1);opacity:1}}@keyframes rise{to{transform:translateY(-125vh) rotate(320deg)}}@media(max-width:420px){.card{padding:22px 14px}.tilegrid{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><main>
+<section class="card">
+<div class="tag">🚨 very important announcement 🚨</div>
+<h1>Sorry,<br>Mauuu 💗</h1>
+<div class="mascot">🐱💌</div>
+<p class="lead"><b>Dear my pretty Mau,</b><br>your cute lil jadta has a very important thing to say… 🥺👉👈</p>
+<h2>I'm sowwwy 😭❤️</h2>
+<p class="lead">I know I might not always get everything right, but I'm genuinely sorry. You mean so much to me, and I never want you to feel like you have to deal with everything alone. 💗</p>
+<div class="buttons"><button class="pink" onclick="showPop('apology')">Open my heart 💌</button><button class="soft" onclick="showPop('hug')">Emergency hug 🫂</button></div>
+</section>
+<section class="card">
+<div class="mascot">🐻🌷</div><h2>A little thing I need you to know</h2>
+<div class="note">I'm really sorry, Mauuu 🥺❤️ I want to be there for you, especially when things get tough. I wish I could take away all your worries and make your difficult days a little easier. You don't have to face everything alone, okay? I'm always by your side, ready to listen to you, comfort you, make you smile, and remind you how special you are to me. Even when things feel heavy, I want you to know that you have your person right here, holding your hand through it all. I might not be able to fix everything, but I'll always try my best to make things a little easier for you. I'm your cute lil jadta, after all 😭💋❤️🫂 And I just want to see my Mau happy, loved, and smiling that pretty smile of hers. I love youuu so much, meri Mauuu. Please don't forget that your jadta is always here for you. 🥹💗💋</div>
+<p class="lead">You don't have to pretend to be okay all the time, Mau. You can talk to me, vent to me, or just sit quietly with me. I'm here. ❤️</p>
+</section>
+<section class="card">
+<h2>Official Jadta Care Package 🎁</h2>
+<div class="tilegrid">
+<div class="tile">🫂<strong>Unlimited hugs</strong><span class="small">redeem whenever</span></div>
+<div class="tile">😘<strong>50 kisses</strong><span class="small">plus bonus smooches</span></div>
+<div class="tile">👂<strong>Listening ears</strong><span class="small">no judgement, just you</span></div>
+<div class="tile">🌷<strong>One real promise</strong><span class="small">I'll keep trying</span></div>
+</div>
+<p class="small">*Care package cannot be exchanged for cash. Only cuddles.* 😂💗</p>
+</section>
+<section class="card">
+<div class="mascot">🥹💞</div><h2>One tiny question, Mau…</h2>
+<p class="lead">Can your silly lil jadta please have a chance to make you smile again?</p>
+<div class="buttons"><button class="pink" onclick="showPop('yes')">Come here, jadta 🫂💋</button><button class="soft" onclick="showPop('mad')">Still mad 😤</button></div>
+</section>
+<div class="footer">No matter how tough life gets, Mau, you don't have to face it alone. 💗<br>Your cute lil jadta is right here, holding your hand, loving you, and choosing you every single day. 💋♥️🫂<br><b>I'm sorry, meri Mauuu. I love youuu. 💌</b></div>
+</main>
+<div id="overlay" class="overlay hidden" role="dialog" aria-modal="true"><div class="popup"><div id="pi" class="popicon">🥺💗</div><h2 id="pt">Wait, one more thing!</h2><p id="pm"></p><button class="pink" onclick="hidePop()">Okayyy 💞</button></div></div>
+<script>
+const copy={
+apology:['🥺💌','A real apology, Mau','I’m genuinely sorry. I care about your feelings, and I want to listen and understand instead of just saying sorry. You deserve patience, care, and effort from me. ❤️'],
+hug:['🫂🐻','HUG DELIVERY!','Please stay right there. Your virtual hug is arriving in 3… 2… 1… SQUISHHHH. Extra cuddles included because you are my favourite human. 💗'],
+yes:['🎉💋','JADTA IS HAPPY-CRYING','Thank you for hearing me out, Mauuu. I’ll keep trying to show you through my actions how much you matter to me. Now please accept this giant virtual hug. 🫂❤️'],
+mad:['😭🌷','That’s okay, pretty girl','You’re allowed to still be upset. I won’t rush you. I’ll give you space if you need it, listen when you’re ready, and keep trying to make things right. A tiny cat is waiting here with flowers. 🐱💐']
+};
+function showPop(k){document.getElementById('pi').textContent=copy[k][0];document.getElementById('pt').textContent=copy[k][1];document.getElementById('pm').textContent=copy[k][2];document.getElementById('overlay').classList.remove('hidden')}
+function hidePop(){document.getElementById('overlay').classList.add('hidden')}
+document.getElementById('overlay').addEventListener('click',e=>{if(e.target.id==='overlay')hidePop()});
+for(let i=0;i<14;i++){let x=document.createElement('span');x.className='float';x.textContent=['💗','✨','🌸','♡'][i%4];x.style.left=Math.random()*100+'%';x.style.animationDelay=Math.random()*7+'s';x.style.fontSize=15+Math.random()*20+'px';document.body.appendChild(x)}
+</script></body></html>
